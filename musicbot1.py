@@ -25,7 +25,7 @@ def main():
 	update_id = last_update(get_updates_json(url))['update_id']
 	while True:
 		if update_id == last_update(get_updates_json(url))['update_id']:
-			send_mess(get_chat_id(last_update(get_updates_json(url))), 'А ща ещё лучше работать должно')
+			send_mess(get_chat_id(last_update(get_updates_json(url))), '321324')
 			update_id += 1
 		sleep(1)
 
